@@ -34,6 +34,10 @@ Route::get('/', function () {
 
 Route::get('/', [BerandaController::class, 'index']);
 
+Route::get('/test', function () {
+    return view('home');
+});
+
 Route::get('/tentang', function () {
     return view('tentang');
 });

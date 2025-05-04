@@ -31,7 +31,7 @@ body {
 }
 /* header */
 header .navbar-brand img {
-    max-height: 36px;
+    max-height: 40px;
 }
 header .left-nav .navbar-nav:before {
     background-color: var(--white);
