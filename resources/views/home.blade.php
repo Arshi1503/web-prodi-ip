@@ -59,12 +59,12 @@
         <section class="overlap-height">
             <div class="container overlap-gap-section">
                 <div class="row justify-content-center mb-4 sm-mb-10"> 
-                    <div class="col-xl-6 col-lg-7 col-md-8 text-center last-paragraph-no-margin" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <div class="col-xl-6 col-lg-7 text-center last-paragraph-no-margin" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <span class="fs-20 text-base-color">Tentang Kami</span>
                         <h3 class="alt-font fw-500 text-dark-gray w-80 xs-w-100 mx-auto ls-minus-1px">Visi, Misi, Tujuan</h3>
                     </div>
                 </div>
-                <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center gap-4 justify-content-center" data-anime='{ "el": "childs", "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                <div class="row row-cols-1 row-cols-lg-4 justify-content-center gap-4 justify-content-center" data-anime='{ "el": "childs", "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                     <!-- start process step item -->
                     <div class="tw-p-4 tw-h-full tw-flex tw-flex-col tw-justify-between text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
                         <i class="bi bi-bullseye text-dark-gray icon-large mb-20px"></i>
@@ -87,7 +87,7 @@
                     </div>
                     <!-- end process step item -->
                 </div>
-                <a href="#" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow tw-mt-5">
+                <a href="#" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow tw-mt-5 lg:tw-ml-[30rem] tw-ml-16 md:tw-ml-[18rem]">
                     Selengkapnya
                     <span class="bg-orient-blue text-white">
                         <i class="feather icon-feather-arrow-right icon-small"></i>
@@ -118,7 +118,7 @@
                         </a>                        
                     </div>
                     <div class="col-lg-6 position-relative md-mt-14 sm-mt-17 xs-mt-23"> 
-                        <div class="w-70 md-w-75 xs-w-90 tw-ml-32" data-animation-delay="50" data-shadow-animation="true">
+                        <div class="w-70 md-w-75 xs-w-90 lg:tw-ml-32" data-animation-delay="50" data-shadow-animation="true">
                             <img src="{{ asset('images/gambar/alumni2.jpg') }}" alt="" class=" border-radius-8px w-100">
                         </div>
                     </div> 
@@ -129,7 +129,7 @@
         <!-- start section --> 
         <!-- end section -->
         <!-- start section -->
-        <section class="py-0">
+        <section class="py-0 tw-mb-10">
             <div class="container">        
                 <div class="row justify-content-center mb-3">
                     <div class="col-lg-6 col-md-7 col-sm-8 text-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
