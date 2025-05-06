@@ -1,0 +1,231 @@
+﻿@extends('layouts.app')
+@section('title', 'Beranda')
+@section('content')
+        <section class="page-title-separate-breadcrumbs bg-dark-gray ipad-top-space-margin cover-background bg-dark-gray" style="background-image: url({{asset('images/gambar/hero-2.jpg')}})">
+            <div class="opacity-full-dark bg-gradient-dark-transparent"></div>
+            <div class="container position-relative">
+                <div class="row flex-column flex-lg-row justify-content-center align-items-lg-end extra-very-small-screen">
+                    <div class="col-xxl-8 col-md-7 position-relative page-title-large md-mb-30px sm-mb-20px">
+                        <h1 class="text-white alt-font fw-500 ls-minus-1px mb-0 font-style-italic" data-fancy-text='{ "opacity": [0, 1], "delay": 500, "speed": 50, "string": ["Prodi Ilmu Politik"], "easing": "easeOutQuad" }'></h1>
+                    </div>
+                    <div class="col-xxl-4 col-lg-5 col-md-7 col-sm-9 last-paragraph-no-margin" data-anime='{ "opacity": [0, 1], "delay": 500, "easing": "easeOutQuad" }'>
+                        <p class="text-white opacity-8"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end page title -->
+        <!-- start breadcrumb --> 
+        <section class="pt-15px pb-15px border-bottom border-color-extra-medium-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 breadcrumb breadcrumb-style-01 fs-15">
+                        <ul>
+                            <li><a href="demo-lawyer.html">Beranda</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end breadcrumbs -->
+        <section class="pt-0 big-section tw-mt-10">
+            <div class="container">
+                <div class="row align-items-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'> 
+                    <div class="col-lg-6 position-relative md-mb-14 sm-mb-17 xs-mb-23"> 
+                        <div class="w-70 md-w-75 xs-w-90" data-animation-delay="50" data-shadow-animation="true">
+                            <img src="{{ asset('images/gambar/hero-3.jpg') }}" alt="" class="border-radius-8px w-100">
+                        </div>
+                        <div class="w-55 overflow-hidden position-absolute right-15px xs-w-60 bottom-minus-20px" data-shadow-animation="true" data-animation-delay="250" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
+                            <img src="{{ asset('images/gambar/hero.jpg') }}" alt="" class="border-radius-8px w-100 box-shadow-quadruple-large" />
+                        </div>
+                    </div> 
+                    <div class="col-xl-5 offset-xl-1 col-lg-6 text-center text-lg-start">
+                        <h3 class="fw-700 text-dark-gray ls-minus-2px">Apa yang Dipelajari dalam Prodi Politik?</h3> 
+                        <p class="mb-40px xs-mb-30px w-90 lg-w-95 md-w-100">Program Studi Ilmu Politik adalah program pendidikan tinggi yang mempelajari teori dan praktik politik, termasuk sistem pemerintahan, kekuasaan, kebijakan publik, hubungan internasional, partai politik, serta perilaku politik masyarakat. Mahasiswa diajak memahami dinamika sosial-politik di tingkat lokal, nasional, hingga global, serta dibekali keterampilan analisis kritis dan diplomasi.</p> 
+                        <a href="#" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow">
+                            Selengkapnya
+                            <span class="bg-orient-blue text-white">
+                                <i class="feather icon-feather-arrow-right icon-small"></i>
+                            </span>
+                        </a>                        
+                    </div> 
+                </div> 
+            </div>
+        </section>  
+        <!-- end section -->
+        <!-- start section --> 
+        <!-- end section -->
+        <!-- start section --> 
+        <section class="overlap-height">
+            <div class="container overlap-gap-section">
+                <div class="row justify-content-center mb-4 sm-mb-10"> 
+                    <div class="col-xl-6 col-lg-7 text-center last-paragraph-no-margin" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <span class="fs-20 text-base-color">Tentang Kami</span>
+                        <h3 class="alt-font fw-500 text-dark-gray w-80 xs-w-100 mx-auto ls-minus-1px">Visi, Misi, Tujuan</h3>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-4 justify-content-center gap-4 justify-content-center" data-anime='{ "el": "childs", "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                    <!-- start process step item -->
+                    <div class="tw-p-4 tw-h-full tw-flex tw-flex-col tw-justify-between text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
+                        <i class="bi bi-bullseye text-dark-gray icon-large mb-20px"></i>
+                        <span class="d-block alt-font fw-600 fs-19 text-dark-gray mb-5px">Visi</span>
+                        <p>Menjadi Program Studi Ilmu Politik yang unggul dalam kajian politik lokal dan global, serta berkontribusi aktif terhadap pembangunan demokrasi yang berkeadaban.</p>
+                    </div>
+                    <!-- end process step item -->
+                    <!-- start process step item -->
+                    <div class="tw-p-4 tw-h-full tw-flex tw-flex-col tw-justify-between text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
+                        <i class="bi bi-list-task text-dark-gray icon-large mb-20px"></i>     
+                        <span class="d-block alt-font fw-600 fs-19 text-dark-gray mb-5px">Misi</span>
+                        <p>Melakukan penelitian dan pengabdian kepada masyarakat di bidang politik, pemerintahan, dan kebijakan publik.</p>
+                    </div>
+                    <!-- end process step item -->
+                    <!-- start process step item -->
+                    <div class="tw-p-4 tw-h-full tw-flex tw-flex-col tw-justify-between text-center process-step-style-02 hover-box last-paragraph-no-margin xs-mb-50px">
+                        <i class="bi bi-stars text-dark-gray icon-large mb-20px"></i>  
+                        <span class="d-block alt-font fw-600 fs-19 text-dark-gray mb-5px">Tujuan</span>
+                        <p>Membentuk lulusan yang memiliki integritas, etika, dan kepemimpinan dalam kehidupan bermasyarakat, berbangsa, dan bernegara.</p>
+                    </div>
+                    <!-- end process step item -->
+                </div>
+                <a href="#" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow tw-mt-5 lg:tw-ml-[30rem] tw-ml-16 md:tw-ml-[18rem]">
+                    Selengkapnya
+                    <span class="bg-orient-blue text-white">
+                        <i class="feather icon-feather-arrow-right icon-small"></i>
+                    </span>
+                </a>                        
+            </div>
+        </section>
+        <!-- end section -->
+        {{-- start section --}}
+        <section class="pt-0 big-section tw-my-20">
+            <div class="container">
+                <div class="row align-items-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'> 
+                    <div class="col-xl-5 offset-xl-1 col-lg-6 text-center text-lg-start">
+                        <h3 class="fw-700 text-dark-gray ls-minus-2px">Kata Sambutan</h3> 
+                        <div class="tw-space-y-4 tw-text-justify tw-text-base tw-leading-relaxed tw-w-90 lg:tw-w-95 md:tw-w-full">
+                            <p>Di tengah dunia yang semakin kompleks, peran Ilmu Politik menjadi sangat penting dalam memahami dinamika pemerintahan, demokrasi, dan hubungan internasional. Melalui kurikulum yang berorientasi pada praktik dan pemikiran kritis, kami berkomitmen mencetak lulusan yang tidak hanya cakap secara akademik, tetapi juga siap menjadi agen perubahan di masyarakat.</p>
+                            <p>
+                            Kami mengundang para generasi muda untuk bergabung, belajar, dan tumbuh bersama kami di lingkungan akademik yang inklusif, progresif, dan berpikiran global.
+                            </p>
+
+                        </div>
+                        
+                        <a href="#" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow tw-mt-7">
+                            Selengkapnya
+                            <span class="bg-orient-blue text-white">
+                                <i class="feather icon-feather-arrow-right icon-small"></i>
+                            </span>
+                        </a>                        
+                    </div>
+                    <div class="col-lg-6 position-relative md-mt-14 sm-mt-17 xs-mt-23"> 
+                        <div class="w-70 md-w-75 xs-w-90 lg:tw-ml-32" data-animation-delay="50" data-shadow-animation="true">
+                            <img src="{{ asset('images/gambar/alumni2.jpg') }}" alt="" class=" border-radius-8px w-100">
+                        </div>
+                    </div> 
+                </div> 
+            </div>
+        </section>  
+        {{-- end section  --}}
+        <!-- start section --> 
+        <!-- end section -->
+        <!-- start section -->
+        <section class="py-0 tw-mb-10">
+            <div class="container">        
+                <div class="row justify-content-center mb-3">
+                    <div class="col-lg-6 col-md-7 col-sm-8 text-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                        <h3 class="fw-700 text-dark-gray ls-minus-2px">Berita Terkini</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="blog-grid blog-wrapper grid-loading grid grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                            <li class="grid-sizer"></li>
+                            <!-- start blog list -->
+                            <li class="grid-item">
+                                <div class="card border-0 border-radius-5px box-shadow-quadruple-large box-shadow-quadruple-large-hover" style="min-height: 450px; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div class="blog-image" style="height: 200px; overflow: hidden;">
+                                        <a href="#" class="d-block">
+                                            <img src="{{asset('images/gambar/bandung.jpg')}}" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                                        </a>
+                                    </div>
+                                    <div class="card-body p-12 lg-p-10" style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+                                        <a href="#" 
+                                        class="card-title mb-15px fw-600 fs-20 text-dark-gray d-inline-block" 
+                                        style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                                            {!! Str::limit("Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod totam, blanditiis, nihil adipisci quisquam, quos aut iure quo nam optio reprehenderit dolorem. Labore nostrum, ipsum nemo quae pariatur ea",90) !!}
+                                        </a>
+                                        <p style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
+                                            {!! Str::limit("Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod totam, blanditiis, nihil adipisci quisquam, quos aut iure quo nam optio reprehenderit dolorem. Labore nostrum, ipsum nemo quae pariatur ea", 120) !!}
+                                        </p>
+                                        <div class="d-flex justify-content-center align-items-center position-relative overflow-hidden fs-14 text-uppercase mt-auto">
+                                            <div class="me-auto">
+                                                <span class="blog-date d-inline-block fw-600 text-dark-gray">
+                                                    15 Maret 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end blog list -->
+                            <li class="grid-item">
+                                <div class="card border-0 border-radius-5px box-shadow-quadruple-large box-shadow-quadruple-large-hover" style="min-height: 450px; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div class="blog-image" style="height: 200px; overflow: hidden;">
+                                        <a href="#" class="d-block">
+                                            <img src="{{asset('images/gambar/bandung.jpg')}}" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                                        </a>
+                                    </div>
+                                    <div class="card-body p-12 lg-p-10" style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+                                        <a href="#" 
+                                        class="card-title mb-15px fw-600 fs-20 text-dark-gray d-inline-block" 
+                                        style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                                            {!! Str::limit("Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod totam, blanditiis, nihil adipisci quisquam, quos aut iure quo nam optio reprehenderit dolorem. Labore nostrum, ipsum nemo quae pariatur ea",90) !!}
+                                        </a>
+                                        <p style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
+                                            {!! Str::limit("Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod totam, blanditiis, nihil adipisci quisquam, quos aut iure quo nam optio reprehenderit dolorem. Labore nostrum, ipsum nemo quae pariatur ea", 120) !!}
+                                        </p>
+                                        <div class="d-flex justify-content-center align-items-center position-relative overflow-hidden fs-14 text-uppercase mt-auto">
+                                            <div class="me-auto">
+                                                <span class="blog-date d-inline-block fw-600 text-dark-gray">
+                                                    15 Maret 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end blog list -->
+                            <li class="grid-item">
+                                <div class="card border-0 border-radius-5px box-shadow-quadruple-large box-shadow-quadruple-large-hover" style="min-height: 450px; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div class="blog-image" style="height: 200px; overflow: hidden;">
+                                        <a href="#" class="d-block">
+                                            <img src="{{asset('images/gambar/bandung.jpg')}}" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                                        </a>
+                                    </div>
+                                    <div class="card-body p-12 lg-p-10" style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+                                        <a href="#" 
+                                        class="card-title mb-15px fw-600 fs-20 text-dark-gray d-inline-block" 
+                                        style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                                            {!! Str::limit("Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod totam, blanditiis, nihil adipisci quisquam, quos aut iure quo nam optio reprehenderit dolorem. Labore nostrum, ipsum nemo quae pariatur ea",90) !!}
+                                        </a>
+                                        <p style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
+                                            {!! Str::limit("Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod totam, blanditiis, nihil adipisci quisquam, quos aut iure quo nam optio reprehenderit dolorem. Labore nostrum, ipsum nemo quae pariatur ea", 120) !!}
+                                        </p>
+                                        <div class="d-flex justify-content-center align-items-center position-relative overflow-hidden fs-14 text-uppercase mt-auto">
+                                            <div class="me-auto">
+                                                <span class="blog-date d-inline-block fw-600 text-dark-gray">
+                                                    15 Maret 2025
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end blog list -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+@endsection
