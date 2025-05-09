@@ -1,4 +1,4 @@
-﻿@extends('layouts.app')
+﻿@extends('layouts.app', ['isHome' => true])
 @section('title', 'Beranda')
 @section('content')
         <section class="page-title-separate-breadcrumbs bg-dark-gray ipad-top-space-margin cover-background bg-dark-gray" style="background-image: url({{asset('images/gambar/hero-2.jpg')}})">
