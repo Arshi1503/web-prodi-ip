@@ -48,7 +48,7 @@
                             <p class="mb-40px xs-mb-30px w-90 lg-w-95 md-w-100">{!! $tentang->deskripsi !!}</p>
                         @endif
                         {{-- <p class="mb-40px xs-mb-30px w-90 lg-w-95 md-w-100">Program Studi Ilmu Politik adalah program pendidikan tinggi yang mempelajari teori dan praktik politik, termasuk sistem pemerintahan, kekuasaan, kebijakan publik, hubungan internasional, partai politik, serta perilaku politik masyarakat. Mahasiswa diajak memahami dinamika sosial-politik di tingkat lokal, nasional, hingga global, serta dibekali keterampilan analisis kritis dan diplomasi.</p>  --}}
-                        <a href="#" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow">
+                        <a href="/tentang" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow">
                             Selengkapnya
                             <span class="bg-orient-blue text-white">
                                 <i class="feather icon-feather-arrow-right icon-small"></i>
@@ -103,7 +103,7 @@
                     <!-- end process step item -->
                 </div>
                 <div class="tw-mt-5 tw-flex tw-justify-center">
-                    <a href="#" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow">
+                    <a href="/visi-misi-tujuan" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow">
                         Selengkapnya
                         <span class="bg-orient-blue text-white">
                             <i class="feather icon-feather-arrow-right icon-small"></i>
@@ -130,7 +130,7 @@
 
                         </div>
                         
-                        <a href="#" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow tw-mt-7">
+                        <a href="{{ route('pimpinanStaff.showDetail', $pimpinanStaff->id) }}" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow tw-mt-7">
                             Selengkapnya
                             <span class="bg-orient-blue text-white">
                                 <i class="feather icon-feather-arrow-right icon-small"></i>
