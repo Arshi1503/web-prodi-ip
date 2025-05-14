@@ -35,7 +35,7 @@ class PublikasiResource extends Resource
                         'Berita' => 'Berita',
                     ])
                     ->default('Berita')
-                    ->disabled()
+                    // ->disabled()
                     ->required(),
                 Forms\Components\DatePicker::make('waktu')->required(),
                 Forms\Components\RichEditor::make('deskripsi')

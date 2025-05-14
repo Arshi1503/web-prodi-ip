@@ -76,7 +76,7 @@
                         <i class="bi bi-bullseye text-dark-gray icon-large mb-20px"></i>
                         <span class="d-block alt-font fw-600 fs-19 text-dark-gray mb-5px">Visi</span>
                         @if ($visiMisiTujuan && $visiMisiTujuan->visi)
-                            <p>{!! $visiMisiTujuan->visi !!}</p>
+                            <span>{!! $visiMisiTujuan->visi !!}</span>
                         @endif
                         {{-- <p>Menjadi Program Studi Ilmu Politik yang unggul dalam kajian politik lokal dan global, serta berkontribusi aktif terhadap pembangunan demokrasi yang berkeadaban.</p> --}}
                     </div>
@@ -85,8 +85,10 @@
                     <div class="tw-p-4 tw-h-full tw-flex tw-flex-col tw-justify-between text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
                         <i class="bi bi-list-task text-dark-gray icon-large mb-20px"></i>     
                         <span class="d-block alt-font fw-600 fs-19 text-dark-gray mb-5px">Misi</span>
-                        @if ($visiMisiTujuan && $visiMisiTujuan->misi)
-                            <p>{!! $visiMisiTujuan->misi !!}</p>
+                        @if ($visiMisiTujuan && is_array($visiMisiTujuan->misi) && count($visiMisiTujuan->misi) > 0)
+                        <span class="w-90 sm-w-100">
+                            {!! $visiMisiTujuan->misi[0]['text'] !!}
+                        </span>
                         @endif
                         {{-- <p>Melakukan penelitian dan pengabdian kepada masyarakat di bidang politik, pemerintahan, dan kebijakan publik.</p> --}}
                     </div>
@@ -95,8 +97,10 @@
                     <div class="tw-p-4 tw-h-full tw-flex tw-flex-col tw-justify-between text-center process-step-style-02 hover-box last-paragraph-no-margin xs-mb-50px">
                         <i class="bi bi-stars text-dark-gray icon-large mb-20px"></i>  
                         <span class="d-block alt-font fw-600 fs-19 text-dark-gray mb-5px">Tujuan</span>
-                        @if ($visiMisiTujuan && $visiMisiTujuan->tujuan)
-                            <p>{!! $visiMisiTujuan->tujuan !!}</p>
+                        @if ($visiMisiTujuan && is_array($visiMisiTujuan->tujuan) && count($visiMisiTujuan->tujuan) > 0)
+                        <span class="w-90 sm-w-100">
+                            {!! $visiMisiTujuan->tujuan[0]['text'] !!}
+                        </span>
                         @endif
                         {{-- <p>Membentuk lulusan yang memiliki integritas, etika, dan kepemimpinan dalam kehidupan bermasyarakat, berbangsa, dan bernegara.</p> --}}
                     </div>
