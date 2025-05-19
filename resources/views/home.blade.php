@@ -86,7 +86,7 @@
                         <i class="bi bi-list-task text-dark-gray icon-large mb-20px"></i>     
                         <span class="d-block alt-font fw-600 fs-19 text-dark-gray mb-5px">Misi</span>
                         @if ($visiMisiTujuan && is_array($visiMisiTujuan->misi) && count($visiMisiTujuan->misi) > 0)
-                        <span class="w-90 sm-w-100">
+                        <span>
                             {!! $visiMisiTujuan->misi[0]['text'] !!}
                         </span>
                         @endif
@@ -98,7 +98,7 @@
                         <i class="bi bi-stars text-dark-gray icon-large mb-20px"></i>  
                         <span class="d-block alt-font fw-600 fs-19 text-dark-gray mb-5px">Tujuan</span>
                         @if ($visiMisiTujuan && is_array($visiMisiTujuan->tujuan) && count($visiMisiTujuan->tujuan) > 0)
-                        <span class="w-90 sm-w-100">
+                        <span>
                             {!! $visiMisiTujuan->tujuan[0]['text'] !!}
                         </span>
                         @endif
